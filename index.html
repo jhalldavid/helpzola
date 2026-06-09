@@ -71,15 +71,15 @@
     background: var(--accent);
     color: #fff;
     text-decoration: none;
-    padding: 22px 22px;
+    padding: 24px 24px;
     border-radius: 18px;
     transition: background .15s ease;
   }
   .call:active { background: var(--accent-press); }
-  .call svg { flex: 0 0 24px; }
+  .call svg { flex: 0 0 28px; width: 28px; height: 28px; }
   .call .who { display: flex; flex-direction: column; line-height: 1.2; }
-  .call .who .name { font-size: 15px; font-weight: 600; opacity: .88; }
-  .call .who .num { font-size: 22px; font-weight: 700; letter-spacing: .005em; margin-top: 6px; }
+  .call .who .name { font-size: clamp(15px, 4vw, 17px); font-weight: 600; opacity: .88; }
+  .call .who .num { font-size: clamp(26px, 7.5vw, 34px); font-weight: 700; letter-spacing: .005em; margin-top: 6px; }
   .chip {
     margin: 40px 0 0;
     background: var(--card);
