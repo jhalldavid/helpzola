@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f7f5f1">
+<meta name="description" content="Zola is a lost dog. If you found her, please call or text her people right away. She is microchipped.">
+<meta name="robots" content="index, follow">
+<title>Zola — Help Me Get Home</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+    background: #f7f5f1;
+    color: #14110f;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 32px 20px 24px;
+  }
+  main {
+    width: 100%;
+    max-width: 480px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin: 8px 0 12px;
+    line-height: 1.05;
+    color: #14110f;
+  }
+  .subhead {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 28px;
+    color: #2c2825;
+    line-height: 1.35;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 28px;
+  }
+  .call {
+    display: block;
+    width: 100%;
+    background: #b8442e;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 22px 18px;
+    border-radius: 14px;
+    min-height: 64px;
+    line-height: 1.25;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.15s ease;
+  }
+  .call:active { background: #962f1c; }
+  .call:focus-visible {
+    outline: 3px solid #14110f;
+    outline-offset: 3px;
+  }
+  .chip {
+    margin: 4px 0 0;
+    padding: 16px 18px;
+    background: #ffffff;
+    border: 1px solid #e3ddd2;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #2c2825;
+    line-height: 1.4;
+  }
+  footer {
+    margin-top: 32px;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #5a544e;
+    text-align: center;
+  }
+  @media (min-width: 520px) {
+    body { padding-top: 56px; }
+    h1 { font-size: 64px; }
+    .subhead { font-size: 22px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .call { transition: none; }
+  }
+</style>
+</head>
+<body>
+  <main>
+    <h1>Zola</h1>
+    <p class="subhead">If you found me, please reach my people.</p>
+    <div class="buttons">
+      <a class="call" href="tel:+12143844306" aria-label="Call or text David at 2 1 4, 3 8 4, 4 3 0 6">Call or text David — (214) 384-4306</a>
+      <a class="call" href="tel:+13035033567" aria-label="Call or text Rebecca at 3 0 3, 5 0 3, 3 5 6 7">Call or text Rebecca — (303) 503-3567</a>
+    </div>
+    <p class="chip">I'm microchipped — any vet or shelter can scan me to find my registration.</p>
+    <footer>Thank you for helping me get home.</footer>
+  </main>
+</body>
+</html>
